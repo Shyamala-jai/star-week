@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.visualpathit.account.controllerTest.SampleTest" time="0.06" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.visualpathit.account.controllerTest.SampleTest" time="0.167" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -32,7 +32,7 @@
     <property name="java.class.version" value="65.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="7.0.0-1006-aws"/>
+    <property name="os.version" value="7.0.0-1008-aws"/>
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/ubuntu"/>
     <property name="user.timezone" value="Etc/UTC"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase name="SampleTestHappyFlow" classname="com.visualpathit.account.controllerTest.SampleTest" time="0.06"/>
+  <testcase name="SampleTestHappyFlow" classname="com.visualpathit.account.controllerTest.SampleTest" time="0.167"/>
 </testsuite>
